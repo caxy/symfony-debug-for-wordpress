@@ -1,0 +1,21 @@
+{
+    "name": "caxy/symfony-debug-for-wordpress",
+    "description": "Symfony Debug component for WordPress",
+    "type": "wordpress-plugin",
+    "require": {
+        "symfony/debug": "~2.6",
+        "symfony/var-dumper": "~2.6"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Benjamin Doherty",
+            "email": "bdoherty@caxy.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
